@@ -1,2 +1,4 @@
-print("goga narimanidze")
-print("this is day 1")
+
+name1="shorena"
+name2="tazo"
+print(name1+" "+name2)
