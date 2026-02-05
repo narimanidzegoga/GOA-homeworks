@@ -1,4 +1,13 @@
+name = "goga"
+age = 15
+height = 168
+weight = 63
+address = "dusheti"
 
-name1="shorena"
-name2="tazo"
-print(name1+" "+name2)
+
+print (name)
+print(age)
+
+print (weight)
+print(height)
+print(address)
