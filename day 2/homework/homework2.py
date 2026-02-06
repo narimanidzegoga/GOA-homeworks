@@ -1,3 +1,14 @@
+a = 30
+c = 20
+print(a+c)
+print(a-c)
+print(a*c)
+print(a/c)
+print(a//c)
+print(a % c)
+print((a**2) - (c**2))
+
+
 birth_year = 2010
 current_year = 2026
 age = current_year - birth_year
