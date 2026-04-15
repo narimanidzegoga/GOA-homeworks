@@ -29,4 +29,25 @@ dog_names[4] = "bonnie"
 mixed_type =["hello","goga","wednesday",15,30,50, True , False , False]
 print(mixed_type[5])
 
+# 9) შექმენი სია, სადაც შეინახავ 5 მუსიკოსის სახელს. -> თუ პირველი ელემენტი არის 'Drake' -> შეცვალე სხვა მუსიკოსით
+musicians = ["michael jackson", "elvis presley" , "bob marley","billie eilish", "Drake"]
+if musicians[0] == "Drake":
+    musicians[0] = "taylor swift"
+
+# 10) შექქმენი სია, სადაც შეინახავ რიცხვებს(როგორც მთელები ისე არამთელები) -> გაზარდე სიის პირველი და ბოლო ელემენტი 1000-ით
+numbers = [10,9.5,15]
+numbers[0] = numbers[0] + 1000
+numbers[2] = numbers[2] + 1000
+
+# 11) შექმენი სია, სადაც შეინახავ 3 რიცხვს(როგორც მთელები ისე არამთელები)
+#  - თუ პირველი რიცხვი არის მეტი 10-ზე:
+#      გაზარდე სიის მესამე ელემენტი პირველი და მეორე ელემენტის ნამრავლით
+#  - სხვა შემთხვევაში:
+#      გაზარდე სიის პირველი ელემენტი მეორე და მესამე ელემენტის ნამრავლით
+numbers =[7.5,15,12]
+if numbers[0] > 10:
+    numbers[2] = numbers[2] + (numbers[0] * numbers[1])
+else:
+    numbers[0] = numbers[0] + (numbers[1] + numbers[2])
+
 

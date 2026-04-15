@@ -1,0 +1,96 @@
+<!-- 1) მოიყვანეთ 3 რეალური მაგალითი სად შეიძლება გამოვიყენოთ radio input, -->
+<!-- მაგ: სქესის არჩევა, ენის არჩევა, ზომის არჩევა -->
+
+<!-- 2) მოიყვანეთ 3 რეალური მაგალითი სად შეიძლება გამოვიყენოთ select -->
+<!-- ქვეყნის არჩევა , დაბადების თვის, პროდუქტის კატეგორია -->
+
+
+<html>
+    <head>
+        <title>hw</title>
+    </head>
+    <body>
+        <!-- 3) შექმენით ფორმა, სადაც მომხმარებელი აირჩევს სქესს (radio input გამოყენებით):
+        - Male
+        - Female -->
+        <form>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </form>
+        <!-- 4) შექმენით ფორმა, სადაც მომხმარებელი აირჩევს ქვეყანას select გამოყენებით 
+         (მინიმუმ 5 ქვეყანა, გამოიყენით და ახსენით selected ატრიბუტი). -->
+        <form>
+            
+            <select name="country">
+                <option value="georgia">georgia</option>
+                <option value="england">england</option>
+                <option value="france">france</option>
+                <option value="germany">germany</option>
+                <option value="switzerland">switzerland</option>
+                <option value="norway">norway</option>
+            </select>
+        </form>
+        <!-- 5) შექმენით ფორმა, სადაც იქნება:
+        - სახელი (text input)
+        - საყვარელი ფერი (radio input)
+        - ქალაქი (select)
+        - submit ღილაკი -->
+        <form>
+            <label for="fname">სახელი</label>
+            <input type="text" name="name" id="fname">
+            <br><br>
+            <input type="radio" name="color" id="blue" value="blue">
+            <label for="blue">blue</label>
+            <input type="radio" name="color" id="red" value="red">
+            <label for="red">red</label>
+            <input type="radio" name="color" id="purple" value="purple">
+            <label for="purple">purple</label> 
+            <input type="radio" name="color" id="orange" value="orange">
+            <label for="orange">orange</label>
+            <input type="radio" name="color" id="green" value="green">
+            <label for="green">green</label>
+            <input type="radio" name="color" id="other" value="other">
+            <label for="other">other</label>
+            <br><br>
+            <select name="city">
+                <option value="tbilisi">tbilisi</option>
+                <option value="batumi">batumi</option>
+                <option value="qutaisi">qutaisi</option>
+                <option value="rustavi">rustavi</option>
+                <option value="gori">gori</option>
+                <option value="other">other</option>
+            </select>
+            <br><br>
+            <input type="submit" value="submit">
+            
+        </form>
+
+        <!-- 6) შექმენით survey (გამოკითხვა):
+        - "რომელი პროგრამირების ენა მოგწონთ?"
+        - გამოიყენეთ radio input -->
+
+        <h3>which programming language do you like?</h3>
+        
+        <input type="radio" name="plang" id="python" value="python">
+        <label for="python">python</label>
+        <br>
+        <input type="radio" name="plang" id="javascript" value="javascript">
+        <label for="javascript">javascript</label>
+        <br>
+        <input type="radio" name="plang" id="java" value="java">
+        <label for="java">java</label>
+        <br>
+        <input type="radio" name="plang" id="other" value="other">
+        <label for="other">other</label>
+
+        
+
+
+
+    </body>
+</html>
+
+
+
