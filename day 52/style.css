@@ -1,0 +1,19 @@
+body{
+    background-color: brown;
+}
+#P1 {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+    border: 5px solid black;
+
+    margin-bottom: 15px;
+}
+
+#P2 {
+    padding: 20px 40px;
+    border: 5px solid blue;
+    margin-top: 25px;
+}

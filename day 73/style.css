@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(8, 7, 11);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  width: 343px;
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.title {
+  width: 173px;
+  height: 21px;
+  color: rgb(129, 125, 146);
+  font-size: 16px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.password {
+  width: 343px;
+  height: 64px;
+  background-color: rgb(36, 35, 44);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  color: rgb(230, 229, 234);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.copy1 {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.copy2 {
+  width: 18px;
+  height: 20px;
+}
+
+.div4 {
+  width: 343px;
+  background-color: rgb(36, 35, 44);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.length-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.length-label {
+  color: rgb(230, 229, 234);
+  font-size: 16px;
+}
+
+.length-value {
+  color: rgb(164, 255, 175);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.line {
+  width: 311px;
+  height: 8px;
+  background-color: rgb(8, 7, 11);
+}
+
+.checks {
+  width: 280px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.check-row {
+  width: 280px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.row-short {
+  width: 184px;
+  height: 21px;
+}
+
+.box1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(164, 255, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(230, 229, 234);
+}
+
+.check-img {
+  width: 12px;
+  height: 9px;
+}
+
+.check-text {
+  color: rgb(230, 229, 234);
+  font-size: 16px;
+}
+
+.strength-box {
+  width: 311px;
+  height: 56px;
+  background-color: rgb(8, 7, 11);
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.strength-title {
+  color: rgb(129, 125, 146);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.strength-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.strength-rating {
+  color: rgb(230, 229, 234);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bars {
+  display: flex;
+  gap: 8px;
+}
+
+.bar {
+  width: 10px;
+  height: 28px;
+}
+
+.bar-filled {
+  background-color: rgb(248, 205, 101);
+}
+
+.bar-empty {
+  border: 2px solid rgb(230, 229, 234);
+}
+
+.btn {
+  width: 311px;
+  height: 56px;
+  background-color: rgb(164, 255, 175);
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-text {
+  color: rgb(36, 35, 44);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-arrow {
+  width: 12px;
+  height: 12px;
+}
+
+@media screen and (min-width: 1440px) {
+  .div1 {
+    width: 540px;
+  }
+
+  .password {
+    width: 540px;
+  }
+
+  .div4 {
+    width: 540px;
+  }
+
+  .line {
+    width: 476px;
+  }
+
+  .strength-box {
+    width: 476px;
+  }
+
+  .btn {
+    width: 476px;
+  }
+}

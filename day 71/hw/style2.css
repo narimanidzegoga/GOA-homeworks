@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(248, 249, 250);
+}
+
+.div1 {
+    display: flex;
+    gap: 80px;
+}
+
+.div2 {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.div3 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(150, 150, 150);
+}
+
+.div4 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(0, 150, 110);
+    transform: rotate(45deg);
+}
+
+.div5 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.div6 {
+    position: absolute;
+    top: -41px;
+    left: 41px;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(128, 0, 128);
+    transform: rotate(45deg);
+}
+
+.div7 {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: -4px;
+}
+
+.div8 {
+    position: absolute;
+    top: 41px;
+    left: -41px;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(0, 136, 221);
+    transform: rotate(45deg);
+}
+
+.div9 {
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: -4px;
+}
+
+.div10 {
+    position: absolute;
+    top: 19px;
+    left: 28px;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(255, 165, 0);
+    transform: rotate(45deg);
+}
+
+.div11 {
+    position: absolute;
+    top: 98px;
+    left: 84px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-top: -4px;
+    margin-left: -4px;
+}

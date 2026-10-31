@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(199, 199, 199);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+img {
+    width: 280px;
+    border-radius: 10px;
+    
+}
+
+h2 {
+    color: rgb(0, 0, 64);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+p{
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

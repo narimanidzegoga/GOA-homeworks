@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(128, 255, 0);
+}
+
+.list1 li:nth-child(odd) {
+    color: rgb(255, 0, 0);
+}
+.list2 li:nth-child(even) {
+    color: rgb(0, 0, 255);
+}
+div p:first-child {
+    color: rgb(0, 255, 0);
+}
+div p:last-child {
+    color: rgb(255, 0, 255);
+}
+
+
+.square{
+    list-style-type: square;
+}
+.georgian-listing {
+    list-style: georgian;
+}

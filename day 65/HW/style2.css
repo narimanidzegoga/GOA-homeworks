@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
+    font-family: Georgia, serif;
+}
+
+.div1 {
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #8b4a35;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.description {
+    opacity: 75%;
+}
+
+.preparation {
+    background-color: #fff1f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.preparation h3 {
+    color: #8b4a6b;
+}
+
+li {
+    margin: 8px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+<!-- 1) ახსენით რა არის Inheritance (მემკვიდრეობა) CSS-ში. მოიყვანეთ მაგალითი. -->
+<!-- inheritance - ნიშნავს css-ში როდესაც მშობელი ელემენტისგან ავტომატურად გადადის სტილი შვილ ელემენტზე -->
+<html>
+
+<head>
+    <title>cw</title>
+
+    <style>
+        #div1 {
+            color: red;
+        }
+
+        #div2 {
+            font-size: 30px;
+        }
+
+        #div3 {
+            color: blue;
+        }
+
+        #div4 {
+            color: green;
+        }
+
+        #div5 {
+            color: purple;
+            text-align: center;
+        }
+
+        #div6 {
+            color: orange;
+            font-size: 25px;
+        }
+        #div7 p{
+            color: blue;
+        }
+        #div8 p {
+            color: green;
+        }
+        #div9 {
+            color: red;
+        }
+        #blackp {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 2) შექმენით div.
+   - მიანიჭეთ color: red;
+   - შიგნით დაამატეთ h1 და p
+   - დააკვირდით როგორ გადაეცემა ფერი შვილ ელემენტებს -->
+
+    <div id="div1">
+        <h1>Heading</h1>
+        <p>this is a paragraph</p>
+    </div>
+
+
+    <!-- 3) შექმენით div.
+   - მიანიჭეთ font-size: 30px;
+   - შიგნით დაამატეთ 3 პარაგრაფი
+   - დააკვირდით როგორ გადაეცემა ზომა პარაგრაფებს -->
+
+    <div id="div2">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+    </div>
+
+
+    <!-- 4) შექმენით 2 div.
+   - პირველს მიანიჭეთ color: blue;
+   - მეორეს მიანიჭეთ color: green;
+   - თითოეულში დაამატეთ 2 პარაგრაფი -->
+
+    <div id="div3">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+    </div>
+
+    <div id="div4">
+        <p>paragraph 3</p>
+        <p>paragraph 4</p>
+    </div>
+
+
+    <!-- 5) შექმენით div.
+   - მიანიჭეთ:
+     - color: purple;
+     - text-align: center;
+   - შიგნით დაამატეთ:
+     - h1
+     - p
+     - button -->
+
+    <div id="div5">
+        <h1>welcome</h1>
+        <p>hello world</p>
+        <button>click me</button>
+    </div>
+
+
+    <!-- 6) შექმენით div, რომლის შიგნით იქნება:
+   - h1
+   - p
+   - b
+   div-ს მიანიჭეთ:
+   - color: orange;
+   - font-size: 25px; -->
+
+    <div id="div6">
+        <h1>hello</h1>
+        <p>hello , my name is <b> goga</b></p>
+    </div>
+
+
+
+    <!-- 7) შექმენით div, რომლის შიგნით იქნება 4 პარაგრაფი, ხოლო მის გარეთ 3 პარაგრაფი.
+   - გამოიყენეთ:
+     - div p
+   - დივის ყველა პარაგრაფი გახადეთ ლურჯი -->
+
+   <div id="div7">
+    <p>paragrap 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>
+    <p>paragraph 4</p>
+   </div>
+   <p>paragraph 5</p>
+   <p>paragraph 6</p>
+   <p>paragraph 7</p>
+
+   <!-- 8) შექმენით div, რომლის შიგნით იქნება:
+    - 2 პარაგრაფი
+    - 1 h2
+    - გამოიყენეთ:
+    - div p
+    - მხოლოდ პარაგრაფები გახადეთ მწვანე -->
+
+   <div id="div8">
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <h2>hello world</h2>
+   </div>
+<!-- 9) შექმენით div.
+    - მიანიჭეთ color: red;
+    - შიგნით დაამატეთ 3 პარაგრაფი
+    შემდეგ ერთ პარაგრაფს მიანიჭეთ:
+    - color: black;
+    დააკვირდით რომელი ფერი ექნება ამ პარაგრაფს. -->
+   <div id="div9">
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p id="blackp">paragraph 3</p>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+

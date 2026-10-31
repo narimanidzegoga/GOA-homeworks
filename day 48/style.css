@@ -1,0 +1,10 @@
+/* Font with @import */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+h1 {
+    font-family: "Black Ops One", sans-serif;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+}

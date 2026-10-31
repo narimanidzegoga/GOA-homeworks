@@ -1,0 +1,44 @@
+<!-- 1) შექმენით 3 div:
+  - პირველი უნდა იყოს block level ელემენტი -> გამოაჩინეთ მისი ყველა თვისება
+  - მეორე უნდა იყოს inline level ელემენტი -> გამოაჩინეთ მისი ყველა თვისება
+  - მესამე უნდა იყოს inline-block level ელემენტი -> გამოაჩინეთ მისი ყველა თვისება -->
+  <html>
+<head>
+<style>
+    body{
+        background-color: rgb(95, 71, 13);
+    }
+div {
+    background: lightblue;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    width: 300px;
+    height: 100px;
+}
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="block">block</div>
+
+<div class="inline">inline</div>
+
+<div class="inline-block">inline blokc</div>
+
+</body>
+</html>
