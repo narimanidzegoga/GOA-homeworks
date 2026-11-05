@@ -25,7 +25,7 @@ nameH.innerText = "John Doe"
 body.appendChild(nameH)
 
 const bio = document.createElement("p")
-bio.innerText = "Hello! My name is John Doe.\nI am learning web development and this is my very first HTML page."
+bio.innerText = "Hello! My name is John Doe.I am learning web development and this is my very first HTML page."
 body.appendChild(bio)
 
 body.appendChild(document.createElement("hr"))
