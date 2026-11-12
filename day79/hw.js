@@ -22,7 +22,7 @@ let total = 0
 for (let i = 1; i < 101; i++){
     total = total + i
 }
-
+console.log(total)
 // დაწერეთ პროგრამა, რომელიც გამოთვლის კენტი რიცხვების ჯამს 1-დან 100-მდე და დაბეჭდავს შედეგს.
 let odd_total = 0
 for (let i = 1; i < 100; i++){
@@ -30,7 +30,7 @@ for (let i = 1; i < 100; i++){
         odd_total = odd_total + i
     }
 }
-
+console.log(total)
 // გამოიყენეთ do...while ციკლი 10-დან 1-მდე დასათვლელად.
 
 // გამოიყენეთ for loop 1-დან 30-მდე 3-ის ჯერადების დასაბეჭდად.
@@ -40,6 +40,7 @@ for (let i = 0; i < 30; i++){
         numbers3 = numbers3 + i
     }
 }
+console.log(total)
 // გამოიყენეთ for loop 4-ის გამრავლების ცხრილის დასაბეჭდად (4 × 1-დან 4 × 10-მდე).
 
 for (let i = 0; i < 10; i++){
